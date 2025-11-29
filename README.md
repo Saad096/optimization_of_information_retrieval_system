@@ -165,3 +165,25 @@ Runs multiple configurations (TF–IDF, TF–IDF+PRF, BM25, TF–IDF+BM25, full 
 - Recommended default: BM25 (or TF–IDF+BM25 hybrid), given top MAP/nDCG and perfect recall@10 on the current ground truth.  
 - TF–IDF+PRF is a modest upgrade over TF–IDF baseline but not competitive with BM25-based scoring.  
 - Future improvement: expand the labeled query set; then reconsider embedding fusion or re-ranking once semantic matches can be rewarded.  
+
+## 9. Expected Issues & Fixes
+- **SentenceTransformer download fails (`pytorch_model.bin` missing / offline errors):** Download the full model locally and point `embeddings.model_name` to it. Run:  
+  ```bash
+  source venv/bin/activate
+  HF_HUB_OFFLINE=0 TRANSFORMERS_OFFLINE=0 python - <<'PY'
+from huggingface_hub import snapshot_download
+snapshot_download(
+    repo_id="sentence-transformers/all-MiniLM-L6-v2",
+    local_dir="models/sentence-transformers_all-MiniLM-L6-v2-full",
+    local_dir_use_symlinks=False,
+)
+print("Model ready at models/sentence-transformers_all-MiniLM-L6-v2-full")
+PY
+  ```  
+  Ensure `configs/config.yaml` has `embeddings.model_name: "models/sentence-transformers_all-MiniLM-L6-v2-full"`.
+
+- **Transformers/hf-hub import errors (`cached_download` missing):** Use the pinned versions in `requirements.txt` (transformers 4.30.2, huggingface-hub 0.16.4, tokenizers 0.13.3). Reinstall with `pip install --force-reinstall -r requirements.txt`.
+
+- **Spellchecker dictionary not found (“english” missing):** The code now maps language to `en`, but if it still fails, reinstall `pyspellchecker` (`pip install --force-reinstall pyspellchecker`) and rerun. The system will log a warning and continue without crashing.
+
+- **Joblib “Permission denied” warning (parallel temp dir):** Set `export JOBLIB_TEMP_FOLDER=$PWD/tmp_joblib` (create the folder if needed) to silence the warning; otherwise it simply runs in serial mode.
