@@ -1,0 +1,16 @@
+# Virtual environments
+venv/
+.venv/
+
+# Python artifacts
+__pycache__/
+*.pyc
+
+# Generated data and models
+# data/processed/
+models/
+# logs/
+
+# Experiment outputs (plots, CSVs can be regenerated)
+# experiments/*.png
+# experiments/results.csv

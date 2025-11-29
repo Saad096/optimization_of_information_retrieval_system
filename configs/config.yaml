@@ -1,0 +1,40 @@
+data:
+  articles_csv: "data/raw/Articles.csv"
+
+preprocessing:
+  language: "english"
+  lowercase: true
+  remove_punctuation: true
+  use_stemming: true
+  use_lemmatization: true
+  fix_spelling_queries: true
+  expand_query: true
+
+indexing:
+  max_features: 50000
+  ngram_range: [1, 2]
+
+retrieval:
+  top_k: 10
+  pseudo_relevance_feedback:
+    enabled: true
+    top_m: 5
+    alpha: 1.0
+    beta: 0.8
+  fusion_weights:
+    tfidf: 0.4
+    bm25: 0.3
+    embed: 0.3
+  similarity:
+    tfidf: "cosine"   # "cosine" or "dot"
+    embed: "cosine"   # cosine for embeddings
+
+embeddings:
+  model_name: "models/sentence-transformers_all-MiniLM-L6-v2-full"
+
+evaluation:
+  k: 10
+
+logging:
+  log_file: "logs/ir_system.log"
+  level: "INFO"

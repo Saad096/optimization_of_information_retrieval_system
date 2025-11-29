@@ -1,0 +1,134 @@
+2025-11-29 16:16:13,439 [INFO] IRSystem - Logging initialized.
+2025-11-29 16:21:28,994 [INFO] IRSystem - Logging initialized.
+2025-11-29 16:21:40,995 [INFO] sentence_transformers.SentenceTransformer - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-11-29 17:03:26,794 [INFO] IRSystem - Logging initialized.
+2025-11-29 17:03:38,259 [INFO] sentence_transformers.SentenceTransformer - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-11-29 17:04:00,287 [INFO] IRSystem - Logging initialized.
+2025-11-29 17:04:12,031 [INFO] sentence_transformers.SentenceTransformer - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-11-29 17:04:36,849 [INFO] IRSystem - Logging initialized.
+2025-11-29 17:04:48,483 [INFO] sentence_transformers.SentenceTransformer - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-11-29 17:05:31,896 [INFO] IRSystem - Logging initialized.
+2025-11-29 17:05:44,064 [INFO] sentence_transformers.SentenceTransformer - Load pretrained SentenceTransformer: /home/saad-alam/.cache/huggingface/hub/models--sentence-transformers--all-MiniLM-L6-v2/snapshots/c9745ed1d9f207416be6d2e6f8de32d1f16199bf
+2025-11-29 17:35:47,865 [INFO] IRSystem - Logging initialized.
+2025-11-29 17:36:00,686 [INFO] sentence_transformers.SentenceTransformer - Load pretrained SentenceTransformer: models/sentence-transformers_all-MiniLM-L6-v2
+2025-11-29 17:36:00,687 [WARNING] sentence_transformers.SentenceTransformer - No sentence-transformers model found with name models/sentence-transformers_all-MiniLM-L6-v2. Creating a new one with MEAN pooling.
+2025-11-29 17:54:46,245 [INFO] IRSystem - Logging initialized.
+2025-11-29 17:54:59,009 [INFO] sentence_transformers.SentenceTransformer - Load pretrained SentenceTransformer: models/sentence-transformers_all-MiniLM-L6-v2
+2025-11-29 17:54:59,009 [WARNING] sentence_transformers.SentenceTransformer - No sentence-transformers model found with name models/sentence-transformers_all-MiniLM-L6-v2. Creating a new one with MEAN pooling.
+2025-11-29 17:54:59,183 [INFO] sentence_transformers.SentenceTransformer - Use pytorch device: cpu
+2025-11-29 17:58:34,418 [INFO] IRSystem - Indices built successfully.
+2025-11-29 18:00:37,555 [INFO] IRSystem - Logging initialized.
+2025-11-29 18:00:48,727 [INFO] sentence_transformers.SentenceTransformer - Load pretrained SentenceTransformer: models/sentence-transformers_all-MiniLM-L6-v2
+2025-11-29 18:00:48,727 [WARNING] sentence_transformers.SentenceTransformer - No sentence-transformers model found with name models/sentence-transformers_all-MiniLM-L6-v2. Creating a new one with MEAN pooling.
+2025-11-29 18:00:48,918 [INFO] sentence_transformers.SentenceTransformer - Use pytorch device: cpu
+2025-11-29 18:04:31,160 [INFO] IRSystem - Indices built successfully.
+2025-11-29 18:18:21,185 [INFO] IRSystem - Logging initialized.
+2025-11-29 18:20:03,235 [INFO] IRSystem - Logging initialized.
+2025-11-29 18:20:03,259 [WARNING] IRSystem - SpellChecker dictionary for language 'english' unavailable; spelling correction disabled. (The provided dictionary language (english) does not exist!)
+2025-11-29 18:20:04,397 [INFO] sentence_transformers.SentenceTransformer - Load pretrained SentenceTransformer: models/sentence-transformers_all-MiniLM-L6-v2
+2025-11-29 18:20:04,397 [WARNING] sentence_transformers.SentenceTransformer - No sentence-transformers model found with name models/sentence-transformers_all-MiniLM-L6-v2. Creating a new one with MEAN pooling.
+2025-11-29 18:20:04,683 [INFO] sentence_transformers.SentenceTransformer - Use pytorch device: cpu
+2025-11-29 18:20:30,969 [INFO] IRSystem - Logging initialized.
+2025-11-29 18:20:30,995 [WARNING] IRSystem - SpellChecker dictionary for language 'english' unavailable; spelling correction disabled. (The provided dictionary language (english) does not exist!)
+2025-11-29 18:20:32,152 [INFO] sentence_transformers.SentenceTransformer - Load pretrained SentenceTransformer: models/sentence-transformers_all-MiniLM-L6-v2
+2025-11-29 18:20:32,153 [WARNING] sentence_transformers.SentenceTransformer - No sentence-transformers model found with name models/sentence-transformers_all-MiniLM-L6-v2. Creating a new one with MEAN pooling.
+2025-11-29 18:20:32,377 [INFO] sentence_transformers.SentenceTransformer - Use pytorch device: cpu
+2025-11-29 18:24:07,264 [INFO] IRSystem - Logging initialized.
+2025-11-29 18:24:08,426 [INFO] sentence_transformers.SentenceTransformer - Load pretrained SentenceTransformer: models/sentence-transformers_all-MiniLM-L6-v2
+2025-11-29 18:24:08,426 [WARNING] sentence_transformers.SentenceTransformer - No sentence-transformers model found with name models/sentence-transformers_all-MiniLM-L6-v2. Creating a new one with MEAN pooling.
+2025-11-29 18:24:08,620 [INFO] sentence_transformers.SentenceTransformer - Use pytorch device: cpu
+2025-11-29 18:28:12,733 [INFO] IRSystem - Logging initialized.
+2025-11-29 18:28:14,030 [INFO] sentence_transformers.SentenceTransformer - Load pretrained SentenceTransformer: models/sentence-transformers_all-MiniLM-L6-v2
+2025-11-29 18:29:21,658 [INFO] IRSystem - Logging initialized.
+2025-11-29 18:29:22,794 [INFO] sentence_transformers.SentenceTransformer - Load pretrained SentenceTransformer: models/sentence-transformers_all-MiniLM-L6-v2
+2025-11-29 18:29:49,462 [INFO] IRSystem - Logging initialized.
+2025-11-29 18:29:50,661 [INFO] sentence_transformers.SentenceTransformer - Load pretrained SentenceTransformer: /home/saad-alam/.cache/huggingface/hub/models--sentence-transformers--all-MiniLM-L6-v2/snapshots/c9745ed1d9f207416be6d2e6f8de32d1f16199bf
+2025-11-29 18:36:20,628 [INFO] IRSystem - Logging initialized.
+2025-11-29 18:36:21,989 [INFO] sentence_transformers.SentenceTransformer - Load pretrained SentenceTransformer: /home/saad-alam/.cache/huggingface/hub/models--sentence-transformers--all-MiniLM-L6-v2/snapshots/c9745ed1d9f207416be6d2e6f8de32d1f16199bf
+2025-11-29 18:36:46,459 [INFO] IRSystem - Logging initialized.
+2025-11-29 18:36:48,079 [INFO] sentence_transformers.SentenceTransformer - Load pretrained SentenceTransformer: models/sentence-transformers_all-MiniLM-L6-v2-full
+2025-11-29 18:36:48,406 [INFO] sentence_transformers.SentenceTransformer - Use pytorch device: cpu
+2025-11-29 18:37:26,233 [INFO] IRSystem - Logging initialized.
+2025-11-29 18:37:27,477 [INFO] sentence_transformers.SentenceTransformer - Load pretrained SentenceTransformer: models/sentence-transformers_all-MiniLM-L6-v2-full
+2025-11-29 18:37:27,727 [INFO] sentence_transformers.SentenceTransformer - Use pytorch device: cpu
+2025-11-29 18:38:11,595 [INFO] IRSystem - Logging initialized.
+2025-11-29 18:38:11,599 [INFO] IRSystem - Logging initialized.
+2025-11-29 18:38:11,599 [INFO] IRSystem - Starting experiments.
+2025-11-29 18:38:24,305 [INFO] sentence_transformers.SentenceTransformer - Load pretrained SentenceTransformer: models/sentence-transformers_all-MiniLM-L6-v2-full
+2025-11-29 18:38:24,570 [INFO] sentence_transformers.SentenceTransformer - Use pytorch device: cpu
+2025-11-29 18:40:28,223 [INFO] IRSystem - Running experiment: baseline_tfidf_only
+2025-11-29 18:40:29,660 [INFO] sentence_transformers.SentenceTransformer - Load pretrained SentenceTransformer: models/sentence-transformers_all-MiniLM-L6-v2-full
+2025-11-29 18:40:29,851 [INFO] sentence_transformers.SentenceTransformer - Use pytorch device: cpu
+2025-11-29 18:40:29,855 [INFO] IRSystem - Metrics for baseline_tfidf_only: {'precision@10': 0.0, 'recall@10': 0.0, 'MAP': 0.0, 'nDCG@10': 0.0}
+2025-11-29 18:40:29,855 [INFO] IRSystem - Running experiment: tfidf_with_prf
+2025-11-29 18:40:31,342 [INFO] sentence_transformers.SentenceTransformer - Load pretrained SentenceTransformer: models/sentence-transformers_all-MiniLM-L6-v2-full
+2025-11-29 18:40:31,572 [INFO] sentence_transformers.SentenceTransformer - Use pytorch device: cpu
+2025-11-29 18:40:31,609 [INFO] IRSystem - Metrics for tfidf_with_prf: {'precision@10': 0.0, 'recall@10': 0.0, 'MAP': 0.0, 'nDCG@10': 0.0}
+2025-11-29 18:40:31,609 [INFO] IRSystem - Running experiment: bm25_only
+2025-11-29 18:40:33,001 [INFO] sentence_transformers.SentenceTransformer - Load pretrained SentenceTransformer: models/sentence-transformers_all-MiniLM-L6-v2-full
+2025-11-29 18:40:33,209 [INFO] sentence_transformers.SentenceTransformer - Use pytorch device: cpu
+2025-11-29 18:40:33,246 [INFO] IRSystem - Metrics for bm25_only: {'precision@10': 0.0, 'recall@10': 0.0, 'MAP': 0.0, 'nDCG@10': 0.0}
+2025-11-29 18:40:33,246 [INFO] IRSystem - Running experiment: tfidf_bm25_hybrid
+2025-11-29 18:40:34,632 [INFO] sentence_transformers.SentenceTransformer - Load pretrained SentenceTransformer: models/sentence-transformers_all-MiniLM-L6-v2-full
+2025-11-29 18:40:34,839 [INFO] sentence_transformers.SentenceTransformer - Use pytorch device: cpu
+2025-11-29 18:40:34,890 [INFO] IRSystem - Metrics for tfidf_bm25_hybrid: {'precision@10': 0.0, 'recall@10': 0.0, 'MAP': 0.0, 'nDCG@10': 0.0}
+2025-11-29 18:40:34,891 [INFO] IRSystem - Running experiment: full_hybrid_with_embeddings
+2025-11-29 18:40:36,287 [INFO] sentence_transformers.SentenceTransformer - Load pretrained SentenceTransformer: models/sentence-transformers_all-MiniLM-L6-v2-full
+2025-11-29 18:40:36,450 [INFO] sentence_transformers.SentenceTransformer - Use pytorch device: cpu
+2025-11-29 18:40:36,486 [INFO] IRSystem - Metrics for full_hybrid_with_embeddings: {'precision@10': 0.0, 'recall@10': 0.0, 'MAP': 0.0, 'nDCG@10': 0.0}
+2025-11-29 18:40:37,440 [INFO] IRSystem - Experiments completed.
+2025-11-29 18:43:00,142 [INFO] IRSystem - Logging initialized.
+2025-11-29 18:43:01,412 [INFO] sentence_transformers.SentenceTransformer - Load pretrained SentenceTransformer: models/sentence-transformers_all-MiniLM-L6-v2-full
+2025-11-29 18:43:01,694 [INFO] sentence_transformers.SentenceTransformer - Use pytorch device: cpu
+2025-11-29 18:43:24,221 [INFO] IRSystem - Logging initialized.
+2025-11-29 18:43:24,226 [INFO] IRSystem - Logging initialized.
+2025-11-29 18:43:24,226 [INFO] IRSystem - Starting experiments.
+2025-11-29 18:43:39,199 [INFO] sentence_transformers.SentenceTransformer - Load pretrained SentenceTransformer: models/sentence-transformers_all-MiniLM-L6-v2-full
+2025-11-29 18:43:39,417 [INFO] sentence_transformers.SentenceTransformer - Use pytorch device: cpu
+2025-11-29 18:45:41,081 [INFO] IRSystem - Running experiment: baseline_tfidf_only
+2025-11-29 18:45:42,671 [INFO] sentence_transformers.SentenceTransformer - Load pretrained SentenceTransformer: models/sentence-transformers_all-MiniLM-L6-v2-full
+2025-11-29 18:45:42,983 [INFO] sentence_transformers.SentenceTransformer - Use pytorch device: cpu
+2025-11-29 18:45:43,582 [INFO] IRSystem - Metrics for baseline_tfidf_only: {'precision@10': 0.45, 'recall@10': 0.9, 'MAP': 0.6126190476190476, 'nDCG@10': 0.741819561903214}
+2025-11-29 18:45:43,583 [INFO] IRSystem - Running experiment: tfidf_with_prf
+2025-11-29 18:45:45,305 [INFO] sentence_transformers.SentenceTransformer - Load pretrained SentenceTransformer: models/sentence-transformers_all-MiniLM-L6-v2-full
+2025-11-29 18:45:45,496 [INFO] sentence_transformers.SentenceTransformer - Use pytorch device: cpu
+2025-11-29 18:45:45,934 [INFO] IRSystem - Metrics for tfidf_with_prf: {'precision@10': 0.45, 'recall@10': 0.9, 'MAP': 0.6295238095238095, 'nDCG@10': 0.7664799503133994}
+2025-11-29 18:45:45,936 [INFO] IRSystem - Running experiment: bm25_only
+2025-11-29 18:45:47,578 [INFO] sentence_transformers.SentenceTransformer - Load pretrained SentenceTransformer: models/sentence-transformers_all-MiniLM-L6-v2-full
+2025-11-29 18:45:47,764 [INFO] sentence_transformers.SentenceTransformer - Use pytorch device: cpu
+2025-11-29 18:45:48,250 [INFO] IRSystem - Metrics for bm25_only: {'precision@10': 0.5, 'recall@10': 1.0, 'MAP': 0.7655555555555555, 'nDCG@10': 0.834881113907131}
+2025-11-29 18:45:48,251 [INFO] IRSystem - Running experiment: tfidf_bm25_hybrid
+2025-11-29 18:45:49,814 [INFO] sentence_transformers.SentenceTransformer - Load pretrained SentenceTransformer: models/sentence-transformers_all-MiniLM-L6-v2-full
+2025-11-29 18:45:50,096 [INFO] sentence_transformers.SentenceTransformer - Use pytorch device: cpu
+2025-11-29 18:45:50,522 [INFO] IRSystem - Metrics for tfidf_bm25_hybrid: {'precision@10': 0.5, 'recall@10': 1.0, 'MAP': 0.7655555555555555, 'nDCG@10': 0.834881113907131}
+2025-11-29 18:45:50,523 [INFO] IRSystem - Running experiment: full_hybrid_with_embeddings
+2025-11-29 18:45:52,061 [INFO] sentence_transformers.SentenceTransformer - Load pretrained SentenceTransformer: models/sentence-transformers_all-MiniLM-L6-v2-full
+2025-11-29 18:45:52,318 [INFO] sentence_transformers.SentenceTransformer - Use pytorch device: cpu
+2025-11-29 18:45:52,766 [INFO] IRSystem - Metrics for full_hybrid_with_embeddings: {'precision@10': 0.5, 'recall@10': 1.0, 'MAP': 0.7655555555555555, 'nDCG@10': 0.834881113907131}
+2025-11-29 18:45:53,415 [INFO] IRSystem - Experiments completed.
+2025-11-29 18:47:40,446 [INFO] IRSystem - Logging initialized.
+2025-11-29 18:47:40,450 [INFO] IRSystem - Logging initialized.
+2025-11-29 18:47:40,450 [INFO] IRSystem - Starting experiments.
+2025-11-29 18:47:52,819 [INFO] sentence_transformers.SentenceTransformer - Load pretrained SentenceTransformer: models/sentence-transformers_all-MiniLM-L6-v2-full
+2025-11-29 18:47:53,039 [INFO] sentence_transformers.SentenceTransformer - Use pytorch device: cpu
+2025-11-29 18:49:58,789 [INFO] IRSystem - Running experiment: baseline_tfidf_only
+2025-11-29 18:50:00,293 [INFO] sentence_transformers.SentenceTransformer - Load pretrained SentenceTransformer: models/sentence-transformers_all-MiniLM-L6-v2-full
+2025-11-29 18:50:00,493 [INFO] sentence_transformers.SentenceTransformer - Use pytorch device: cpu
+2025-11-29 18:50:01,146 [INFO] IRSystem - Metrics for baseline_tfidf_only: {'precision@10': 0.45, 'recall@10': 0.9, 'MAP': 0.6126190476190476, 'nDCG@10': 0.741819561903214}
+2025-11-29 18:50:01,146 [INFO] IRSystem - Running experiment: tfidf_with_prf
+2025-11-29 18:50:02,667 [INFO] sentence_transformers.SentenceTransformer - Load pretrained SentenceTransformer: models/sentence-transformers_all-MiniLM-L6-v2-full
+2025-11-29 18:50:02,848 [INFO] sentence_transformers.SentenceTransformer - Use pytorch device: cpu
+2025-11-29 18:50:03,714 [INFO] IRSystem - Metrics for tfidf_with_prf: {'precision@10': 0.4, 'recall@10': 0.8, 'MAP': 0.5660714285714286, 'nDCG@10': 0.7306169388219365}
+2025-11-29 18:50:03,714 [INFO] IRSystem - Running experiment: bm25_only
+2025-11-29 18:50:05,307 [INFO] sentence_transformers.SentenceTransformer - Load pretrained SentenceTransformer: models/sentence-transformers_all-MiniLM-L6-v2-full
+2025-11-29 18:50:05,568 [INFO] sentence_transformers.SentenceTransformer - Use pytorch device: cpu
+2025-11-29 18:50:06,240 [INFO] IRSystem - Metrics for bm25_only: {'precision@10': 0.5, 'recall@10': 1.0, 'MAP': 0.7655555555555555, 'nDCG@10': 0.834881113907131}
+2025-11-29 18:50:06,240 [INFO] IRSystem - Running experiment: tfidf_bm25_hybrid
+2025-11-29 18:50:07,821 [INFO] sentence_transformers.SentenceTransformer - Load pretrained SentenceTransformer: models/sentence-transformers_all-MiniLM-L6-v2-full
+2025-11-29 18:50:08,099 [INFO] sentence_transformers.SentenceTransformer - Use pytorch device: cpu
+2025-11-29 18:50:09,023 [INFO] IRSystem - Metrics for tfidf_bm25_hybrid: {'precision@10': 0.5, 'recall@10': 1.0, 'MAP': 0.7488888888888887, 'nDCG@10': 0.8296842265007073}
+2025-11-29 18:50:09,024 [INFO] IRSystem - Running experiment: full_hybrid_with_embeddings
+2025-11-29 18:50:10,602 [INFO] sentence_transformers.SentenceTransformer - Load pretrained SentenceTransformer: models/sentence-transformers_all-MiniLM-L6-v2-full
+2025-11-29 18:50:10,805 [INFO] sentence_transformers.SentenceTransformer - Use pytorch device: cpu
+2025-11-29 18:50:11,477 [INFO] IRSystem - Metrics for full_hybrid_with_embeddings: {'precision@10': 0.5, 'recall@10': 1.0, 'MAP': 0.7488888888888887, 'nDCG@10': 0.8296842265007073}
+2025-11-29 18:50:12,608 [INFO] IRSystem - Experiments completed.
