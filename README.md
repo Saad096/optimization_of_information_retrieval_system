@@ -87,9 +87,10 @@ For a user query:
 
 ### 3.4 Pseudo Relevance Feedback (Rocchio on TF–IDF)
 Use the top-\(M\) documents from the initial hybrid ranking to refine the query vector:
-$$
-\mathbf{q}' = \alpha \mathbf{q} + \beta \cdot \frac{1}{|D_r|} \sum_{d \in D_r} \mathbf{d}
-$$
+<p align="center">
+<img src="https://latex.codecogs.com/png.latex?\color{white}\mathbf{q}'=\alpha\cdot\mathbf{q}+\beta\cdot\frac{1}{|D_r|}\sum_{d\in D_r}\mathbf{d}" />
+</p>
+
 Default:
 
 <p align="center">
