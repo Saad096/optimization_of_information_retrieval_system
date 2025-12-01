@@ -63,19 +63,47 @@ For a user query:
 1. Preprocess query (spelling correction, stemming, lemmatization, optional expansion).  
 2. Compute three score vectors: TF–IDF similarity, BM25 scores, and embedding cosine similarity.  
 3. Hybrid fusion of scores:
-$$
-s_{\text{hybrid}}(d) = w_{\text{tfidf}} \cdot s_{\text{tfidf}}(d)
-                   + w_{\text{bm25}} \cdot s_{\text{bm25}}(d)
-                   + w_{\text{embed}} \cdot s_{\text{embed}}(d)
-$$
-Default weights: \(w_{\text{tfidf}} = 0.4\), \(w_{\text{bm25}} = 0.3\), \(w_{\text{embed}} = 0.3\).  
+**Hybrid Score Formula**
+
+<p align="center">
+<img src="https://latex.codecogs.com/png.latex?\color{white}s_{hybrid}(d)=w_{tfidf}\cdot%20s_{tfidf}(d)+w_{bm25}\cdot%20s_{bm25}(d)+w_{embed}\cdot%20s_{embed}(d)" />
+</p>
+
+**Default Weights**
+
+<p align="center">
+<img src="https://latex.codecogs.com/png.latex?\color{white}w_{tfidf}=0.4" />
+</p>
+
+<p align="center">
+<img src="https://latex.codecogs.com/png.latex?\color{white}w_{bm25}=0.3" />
+</p>
+
+<p align="center">
+<img src="https://latex.codecogs.com/png.latex?\color{white}w_{embed}=0.3" />
+</p>
+
+
 
 ### 3.4 Pseudo Relevance Feedback (Rocchio on TF–IDF)
 Use the top-\(M\) documents from the initial hybrid ranking to refine the query vector:
 $$
 \mathbf{q}' = \alpha \mathbf{q} + \beta \cdot \frac{1}{|D_r|} \sum_{d \in D_r} \mathbf{d}
 $$
-Default: \(M=5\), \(\alpha = 1.0\), \(\beta = 0.8\).  
+Default:
+
+<p align="center">
+<img src="https://latex.codecogs.com/png.latex?\color{white}M=5" />
+</p>
+
+<p align="center">
+<img src="https://latex.codecogs.com/png.latex?\color{white}\alpha=1.0" />
+</p>
+
+<p align="center">
+<img src="https://latex.codecogs.com/png.latex?\color{white}\beta=0.8" />
+</p>
+  
 
 ### 3.5 Embedding Re-Ranker
 Take the top candidates from the hybrid scores and re-rank them by embedding cosine similarity with the raw query to refine the final ordering.
